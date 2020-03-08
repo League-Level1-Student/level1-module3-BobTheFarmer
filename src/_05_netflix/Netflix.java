@@ -8,5 +8,15 @@ public class Netflix {
 		Movie movie4 = new Movie("Infinity War", 5);
 		Movie movie5 = new Movie("3StarMovie", 3);
 		NetflixQueue queue = new NetflixQueue();
+		queue.addMovie(movie1);
+		queue.addMovie(movie2);
+		queue.addMovie(movie3);
+		queue.addMovie(movie4);
+		queue.addMovie(movie5);
+		movie1.getTicketPrice();
+		queue.printMovies();
+		queue.sortMoviesByRating();
+		System.out.println("the best movie is " + queue.getBestMovie());
+		System.out.println("the second best movie is " + queue.getMovie(1));
 	}
 }

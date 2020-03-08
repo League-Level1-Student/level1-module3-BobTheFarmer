@@ -11,7 +11,7 @@ import javax.swing.JApplet;
 public class CowTimer {
 
 	/* 1. Make a constructor for the CowTimer class that initializes the minutes variable */
-	
+
 	/* 4. Complete the main method of the CowTimerRunner class */
 
 	private int minutes;
@@ -47,5 +47,6 @@ public class CowTimer {
 			e.printStackTrace();
 		}
 	}
+	}
 
-}
+
