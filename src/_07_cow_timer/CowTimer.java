@@ -11,7 +11,7 @@ import javax.swing.JApplet;
 public class CowTimer {
 
 	/* 1. Make a constructor for the CowTimer class that initializes the minutes variable */
-
+		CowTimer(int min){minutes = min;}
 	/* 4. Complete the main method of the CowTimerRunner class */
 
 	private int minutes;
